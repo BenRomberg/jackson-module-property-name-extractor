@@ -2,7 +2,7 @@ Can extract the @JsonProperty name by referencing the getter of the correspondin
 
 Example:
 
-```
+```java
 public class PropertyNameExtractorTest {
 	private static final ObjectMapper MAPPER = new ObjectMapper();
 	public static final String RENAMED_PROPERTY = "renamed_property";
